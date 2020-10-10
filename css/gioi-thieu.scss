@@ -1,0 +1,114 @@
+.text-right {
+    margin-top: -10px;
+    margin-bottom: -13px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.box-sp-tuong-tu {
+    border: 1px green solid;
+}
+.box-doi-tac {
+    border: 1px green solid;
+    img {
+        width: 100%;
+    }
+}
+.box-thu-vien {
+    border: 1px green solid;
+    height: 350px;
+    .swiper-container-thu-vien {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+    }
+    .swiper-button-prev-thuvien {
+        position: absolute;
+        top: -2%;
+        left: 47%;
+        font-size: 30px;
+    }
+    .swiper-button-next-thuvien {
+        position: absolute;
+        bottom: -2%;
+        left: 47%;
+        font-size: 30px;
+    }
+}
+//@at-root
+.box-tintuc {
+    border: 1px green solid;
+    height: 350px;
+    .swiper-container-tintuc {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+    }
+    .swiper-button-prev-tintuc {
+        position: absolute;
+        top: -2%;
+        left: 47%;
+        font-size: 30px;
+    }
+    .swiper-button-next-tintuc {
+        position: absolute;
+        bottom: -2%;
+        left: 47%;
+        font-size: 30px;
+    }
+}
+.tintuc-content {
+    font-size: 16px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+    a {
+        color: grey;
+    }
+}
+//FOOTER
+.footer {
+    background-color: #e8e8e8;
+    margin-top: 30px;
+    height: auto;
+    .phancach {
+        background-color: green;
+        height: 84px;
+        width: 2px;
+        margin-left: 41px;
+    }
+}

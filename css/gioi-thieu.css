@@ -68,6 +68,46 @@
   font-size: 30px;
 }
 
+.box-thiet-ke {
+  border: 1px green solid;
+  height: 480px;
+  width: 80%;
+}
+
+.box-thiet-ke .swiper-container-thiet-ke {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.box-thiet-ke .swiper-container-thiet-ke .tensanphammau {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: green;
+  color: white;
+}
+
+.box-thiet-ke .swiper-container-thiet-ke img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box-thiet-ke .swiper-button-prev-thietke {
+  position: absolute;
+  top: -2%;
+  left: 49%;
+  font-size: 30px;
+}
+
+.box-thiet-ke .swiper-button-next-thietke {
+  position: absolute;
+  bottom: -2%;
+  left: 49%;
+  font-size: 30px;
+}
+
 .box-tintuc {
   border: 1px green solid;
   height: 350px;
